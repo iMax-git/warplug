@@ -1,0 +1,14 @@
+name: warplugin
+version: 0.0.1a
+author: max
+main: fr.max.warplugin.warplugin
+commands:
+  war:
+    description: Commande WAR
+    permission: war.use
+  surender:
+    description: Commande surender
+    permission: surender.use
+  door:
+    description: Commande door
+    permission: door.use
