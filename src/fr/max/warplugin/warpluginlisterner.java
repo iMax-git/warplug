@@ -16,12 +16,12 @@ public class warpluginlisterner implements Listener {
 	public void onInteract(PlayerInteractEvent event) {
 		Player player = event.getPlayer();
 		ItemStack it = event.getItem();
-		
+		/*
 		System.out.println("[WARPLUGIN LOGS]"+"-----PlayerInteract-----");
 		System.out.println("[WARPLUGIN LOGS]"+"Action Type: " + event.getAction().name());
 		System.out.println("[WARPLUGIN LOGS]"+"Holding: " + event.getPlayer().getItemInHand().getType().name());
 		System.out.println("[WARPLUGIN LOGS]"+"Cancelled: " + event.isCancelled());
-		
+		*/
 		if(it == null) return;
 		if(it.getType() == Material.DIAMOND_HOE) {
 			if(event.getAction().name().equals("RIGHT_CLICK_AIR" ) ) {
